@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.main{
+  display: flex;
+  height: 931px;
+  width: 1920px;
+}
+
+.container{
+  flex-grow: 1;
+  padding: 20px;
+  background-image: radial-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)), url(https://i.ibb.co/T4G5vz2/itr.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn{
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  padding: 12px;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .4);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: rgb(134, 49, 0);
+  color: #fff;
+}
+
+.sideMenu{
+  flex-shrink: 0;
+  background-color: rgba(22, 22, 22, 1);
+  height: 100%;
+  overflow: auto;
+}
+
+.sideMenu-item{
+  padding: 12px;
+  display: block;
+  transition: background-color .15s;
+  border-radius: 5px;
+}
+
+.sideMenu-item:hover{
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.sideMenu-name{
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.sideMenu-name span i{
+  display: inline-block;
+  width: 12px;
+}
+
+.sideMenu-name .toggle-btn{
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.sideMenu-item.open > .sideMenu-name .toggle-btn{
+  transform: rotate(180deg);
+}
+
+.sideMenu-content{
+  padding-top: 8px;
+  height: 0;
+  overflow: hidden;
+}
+
+.sideMenu-item.open > .sideMenu-content{
+  height: auto;
+}
+
+.sideMenu-item.plain{
+  color: #fff;
+  text-decoration: none;
+}
+
+.sideMenu-item.plain:hover{
+  text-decoration: underline;
+}
+
+.sideMenu-item.plain i{
+  display: inline-block;
+  width: 10px;
+}
+
+.svg{
+  flex: auto;
+  justify-self: center;
+  padding-top: 10%;
+}

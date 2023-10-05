@@ -1,0 +1,129 @@
+[
+    {
+        "name": "Maps",
+        "childrens": [
+            {
+                "name": "Vanno"
+            },
+            {
+                "name": "Pervomay Route"
+            },
+            {
+                "name": "Bolotky Village"
+            },
+            {
+                "name": "Pobeda Factory"
+            },
+            {
+                "name": "Kolkhoz Zarya"
+            },
+            {
+                "name": "Pechorsk Castle"
+            }
+        ]
+    },
+    {
+        "name": "Weapons",
+        "childrens": [
+            {
+                "name": "Handguns",
+                "childrens": [
+                    {
+                        "name": "PM"
+                    },
+                    {
+                        "name": "M9 Beretta"
+                    },
+                    {
+                        "name": "Glock 17"
+                    },
+                    {
+                        "name": "TT33"
+                    }
+                ]
+            },
+            {
+                "name": "Rifles",
+                "childrens": [
+                    {
+                        "name": "AKM"
+                    },
+                    {
+                        "name": "FN FAL"
+                    },
+                    {
+                        "name": "M4A1"
+                    },
+                    {
+                        "name": "Steyr AUG"
+                    }
+                ]
+            },
+            {
+                "name": "Shotguns",
+                "childrens": [
+                    {
+                        "name": "Sawed-off Double Barrel"
+                    },
+                    {
+                        "name": "M4 Benelli"
+                    },
+                    {
+                        "name": "Spas 12"
+                    },
+                    {
+                        "name": "Saiga"
+                    }
+                ]
+            },
+            {
+                "name": "SMGs",
+                "childrens": [
+                    {
+                        "name": "MP5K"
+                    },
+                    {
+                        "name": "PP2000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Enemies",
+        "childrens": [
+            {
+                "name": "Slider"
+            },
+            {
+                "name": "Mimics",
+                "childrens": [
+                    {
+                        "name": "Police Oficer"
+                    },
+                    {
+                        "name": "Hunter"
+                    },
+                    {
+                        "name": "Swat"
+                    },
+                    {
+                        "name": "Sniper"
+                    }
+                ]
+            },
+            {
+                "name": "Seeker"
+            },
+            {
+                "name": "Fragment"
+            },
+            {
+                "name": "Phantom"
+            },
+            {
+                "name": "Spawn"
+            }
+        ]
+    }
+]
